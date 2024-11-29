@@ -1,0 +1,81 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.subtitle {
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 15vh;
+  font-weight: bold;
+  letter-spacing: 1vw;
+}
+
+.rectangle {
+  background-color: lightgray;
+  width: 75px;
+  height: 125px;
+  transition: 0.2s;
+}
+
+.rectangle:hover {
+  opacity: 0.6;
+}
+
+.rectangle-gray {
+  background-color: rgb(143, 143, 143);
+  width: 75px;
+  height: 125px;
+}
+
+.subtitle {
+  background-color: black;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.containter-poker-title {
+  margin-top: 1em;
+}
+
+.container-poker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+
+/* Small screens */
+@media (max-width: 500px) {
+  .col {
+    padding: 5px;
+  }
+}
+
+/* Extra-small screens */
+@media (max-width: 400px) {
+  .col {
+    padding: 2.5px;
+  }
+}
+
+/* Galaxy Z Fold 5 */
+@media (max-width: 344px) {
+  .col {
+    padding: 0.5px;
+  }
+}

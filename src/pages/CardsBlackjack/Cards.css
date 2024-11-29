@@ -1,0 +1,45 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  margin: 0;
+}
+
+.rectangle-cards {
+  background-color: lightgray;
+  width: 60px;
+  height: 100px;
+  transition: 0.2s;
+  margin: 0;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 120px;
+}
+
+.type {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+  color: rgb(64, 64, 64);
+}
+
+.filler {
+  height: 20px;
+}

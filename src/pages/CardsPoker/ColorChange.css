@@ -1,0 +1,32 @@
+.symbol {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  height: 60px;
+  width: 25px;
+  padding: 0px;
+  margin: 0;
+  transition: 0.2s ease-in-out;
+}
+
+/*
+.symbol:hover {
+  animation: grow-shrink 0.3s ease-in-out;
+}
+
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+  .grow-shrink {
+    animation: grow-shrink 0.3s ease-in-out;
+  } 
+ Grow */
